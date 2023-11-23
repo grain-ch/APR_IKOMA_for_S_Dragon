@@ -1,0 +1,10 @@
+<JSC008_Myoko_1945_wire.mfm>
+	<collisionFlags>	0	</collisionFlags>
+	<fx>	shaders/std_effects/PBS_wire.fx	</fx>
+	<property>	metallicGlossMap
+		<Texture>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/ship/JSC008_Myoko_1945_mg.dds	</Texture>
+	</property>
+	<property>	diffuseMap
+		<Texture>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/ship/JSC008_Myoko_1945_a.dds	</Texture>
+	</property>
+</JSC008_Myoko_1945_wire.mfm>

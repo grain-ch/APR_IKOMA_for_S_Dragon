@@ -1,0 +1,20 @@
+<JAF017_Mitsubishi_A6M2_N.mfm>
+	<materialKind>	0	</materialKind>
+	<collisionFlags>	0	</collisionFlags>
+	<fx>	shaders/std_effects/PBS_emissive.fx	</fx>
+	<property>	emissivePower
+		<Float>	0.700000	</Float>
+	</property>
+	<property>	diffuseMap
+		<Texture>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/aircraft/JAF017_Mitsubishi_A6M2_N_a.dds	</Texture>
+	</property>
+	<property>	normalMap
+		<Texture>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/aircraft/JAF017_Mitsubishi_A6M2_N_n.dds	</Texture>
+	</property>
+	<property>	metallicGlossMap
+		<Texture>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/aircraft/JAF017_Mitsubishi_A6M2_N_mg.dds	</Texture>
+	</property>
+	<property>	ambientOcclusionMap
+		<Texture>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/aircraft/default_ao.dds	</Texture>
+	</property>
+</JAF017_Mitsubishi_A6M2_N.mfm>

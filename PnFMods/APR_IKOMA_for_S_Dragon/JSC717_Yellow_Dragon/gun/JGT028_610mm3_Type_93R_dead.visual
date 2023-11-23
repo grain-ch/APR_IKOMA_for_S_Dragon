@@ -1,0 +1,38 @@
+<JGT028_610mm3_Type_93R_dead.visual>
+	<boundingBox>
+		<min>	-0.141403 -0.006289 -0.244734	</min>
+		<max>	0.173443 0.091790 0.369619	</max>
+	</boundingBox>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	Type93R_dead	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+				<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
+			</transform>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Type93R_dead	</node>
+		<geometry>
+			<vertices>	Type93R_deadShape.vertices	</vertices>
+			<primitive>	Type93R_deadShape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	SHIPMAT_PBS_GunDead	</identifier>
+					<mfm>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/gun/JGT017_610mm4_Type_93_dead.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+</JGT028_610mm3_Type_93R_dead.visual>

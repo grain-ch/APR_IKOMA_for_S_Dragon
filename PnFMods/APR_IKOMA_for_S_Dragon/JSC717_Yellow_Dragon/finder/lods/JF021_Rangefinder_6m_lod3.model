@@ -1,0 +1,12 @@
+<JF021_Rangefinder_6m_lod3.model>
+	<castsShadow>	false	</castsShadow>
+	<extent>	50.000000	</extent>
+	<materialNames />
+	<visibilityBox>
+		<min>	-0.215774 0.011885 -0.056686	</min>
+		<max>	0.215774 0.078585 0.056686	</max>
+	</visibilityBox>
+	<exporter>	1.6	</exporter>
+	<nodefullVisual>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/finder/lods/JF021_Rangefinder_6m_lod3	</nodefullVisual>
+	<metaData>	Wargaming | Lesta Studio	</metaData>
+</JF021_Rangefinder_6m_lod3.model>

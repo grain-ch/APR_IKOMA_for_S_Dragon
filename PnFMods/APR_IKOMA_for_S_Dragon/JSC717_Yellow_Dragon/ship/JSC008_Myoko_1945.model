@@ -1,0 +1,9 @@
+<JSC008_Myoko_1945.model>
+	<exporter>	1.6	</exporter>
+	<parent>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/ship/lods/JSC008_Myoko_1945_Full_lod4	</parent>
+	<extent>	400.0000	</extent>
+	<materialNames />
+	<castsShadow>	true	</castsShadow>
+	<nodefullVisual>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/ship/JSC008_Myoko_1945	</nodefullVisual>
+	<metaData>	Wargaming | Lesta Studio	</metaData>
+</JSC008_Myoko_1945.model>

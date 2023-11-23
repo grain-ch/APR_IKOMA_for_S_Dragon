@@ -1,0 +1,11 @@
+<JAF017_Mitsubishi_A6M2_N_wire.mfm>
+	<materialKind>	0	</materialKind>
+	<collisionFlags>	0	</collisionFlags>
+	<fx>	shaders/std_effects/PBS_wire.fx	</fx>
+	<property>	diffuseMap
+		<Texture>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/aircraft/JAF017_Mitsubishi_A6M2_N_a.dds	</Texture>
+	</property>
+	<property>	metallicGlossMap
+		<Texture>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/aircraft/JAF017_Mitsubishi_A6M2_N_mg.dds	</Texture>
+	</property>
+</JAF017_Mitsubishi_A6M2_N_wire.mfm>
