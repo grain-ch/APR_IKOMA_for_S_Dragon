@@ -1,8 +1,0 @@
-<JGM064_203mm50_Type_C_mod_dead_lod1.model>
-	<parent>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/gun/lods/JGM064_203mm50_Type_C_mod_dead_lod2	</parent>
-	<extent>	10.000000	</extent>
-	<castsShadow>	true	</castsShadow>
-	<exporter>	1.6	</exporter>
-	<nodefullVisual>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/gun/lods/JGM064_203mm50_Type_C_mod_dead_lod1	</nodefullVisual>
-	<metaData>	Wargaming | Lesta Studio	</metaData>
-</JGM064_203mm50_Type_C_mod_dead_lod1.model>

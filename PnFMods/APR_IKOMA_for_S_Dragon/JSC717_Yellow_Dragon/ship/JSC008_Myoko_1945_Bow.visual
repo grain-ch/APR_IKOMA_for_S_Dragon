@@ -1,245 +1,583 @@
 <JSC008_Myoko_1945_Bow.visual>
-	<boundingBox>
-		<min>	-0.597135 -0.461458 1.658054	</min>
-		<max>	0.582910 1.793008 6.818281	</max>
-	</boundingBox>
-	<node>
-		<identifier>	Scene Root	</identifier>
-		<transform>
-			<row0>	1.000000 0.000000 0.000000	</row0>
-			<row1>	0.000000 1.000000 0.000000	</row1>
-			<row2>	0.000000 0.000000 1.000000	</row2>
-			<row3>	0.000000 0.000000 0.000000	</row3>
-		</transform>
+	<skeleton>
 		<node>
-			<identifier>	Bow	</identifier>
+			<identifier>	Scene Root	</identifier>
 			<transform>
-				<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
-				<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
-				<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
-				<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
+				<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+				<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+				<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+				<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 			</transform>
 			<node>
-				<identifier>	Bow_Bugles	</identifier>
+				<identifier>	Bow	</identifier>
 				<transform>
-					<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
-					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
-					<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
-					<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
-				</transform>
-			</node>
-			<node>
-				<identifier>	Bow_wire	</identifier>
-				<transform>
-					<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
-					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
-					<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
-					<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
-				</transform>
-			</node>
-			<node>
-				<identifier>	Bow_crack_MidFront	</identifier>
-				<transform>
-					<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
-					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
-					<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
-					<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 				</transform>
 				<node>
-					<identifier>	Bow_crack_MidFront_in	</identifier>
+					<identifier>	Bow_Bugles	</identifier>
 					<transform>
-						<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
-						<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
-						<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
-						<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 					</transform>
 				</node>
-			</node>
-			<node>
-				<identifier>	Bow_crack_MidFront_Bugles	</identifier>
-				<transform>
-					<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
-					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
-					<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
-					<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
-				</transform>
 				<node>
-					<identifier>	Bow_crack_MidFront_in_Bugles	</identifier>
+					<identifier>	Bow_crack_MidFront	</identifier>
 					<transform>
-						<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
-						<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
-						<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
-						<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+					</transform>
+					<node>
+						<identifier>	Bow_crack_MidFront_in	</identifier>
+						<transform>
+							<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+							<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+							<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+							<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	Bow_crack_MidFront_Bugles	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+					</transform>
+					<node>
+						<identifier>	Bow_crack_MidFront_in_Bugles	</identifier>
+						<transform>
+							<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+							<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+							<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+							<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	Bow_patch_MidFront	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 					</transform>
 				</node>
-			</node>
-			<node>
-				<identifier>	Bow_patch_MidFront	</identifier>
-				<transform>
-					<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
-					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
-					<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
-					<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
-				</transform>
-			</node>
-			<node>
-				<identifier>	Bow_patch_MidFront_Bugles	</identifier>
-				<transform>
-					<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
-					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
-					<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
-					<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
-				</transform>
-			</node>
-			<node>
-				<identifier>	Bow_patch_MidFront_wire	</identifier>
-				<transform>
-					<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
-					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
-					<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
-					<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
-				</transform>
+				<node>
+					<identifier>	Bow_patch_MidFront_Bugles	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	Bow_patch_MidFront_wire	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	Bow_wire	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+					</transform>
+				</node>
 			</node>
 		</node>
-	</node>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	Bow	</node>
-		<geometry>
-			<vertices>	BowShape.vertices	</vertices>
-			<primitive>	BowShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMAT_PBS_HullX	</identifier>
-					<mfm>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/ship/JSC008_Myoko_1945.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	Bow_Bugles	</node>
-		<geometry>
-			<vertices>	Bow_BuglesShape.vertices	</vertices>
-			<primitive>	Bow_BuglesShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMAT_PBS_BulgeX	</identifier>
-					<mfm>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/ship/JSC032_Myoko_1941_bools.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	Bow_wire	</node>
-		<geometry>
-			<vertices>	Bow_wireShape.vertices	</vertices>
-			<primitive>	Bow_wireShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPWIRE_PBS_Hull	</identifier>
-					<mfm>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/ship/JSC008_Myoko_1945_wire.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	Bow_crack_MidFront	</node>
-		<geometry>
-			<vertices>	Bow_crack_MidFrontShape.vertices	</vertices>
-			<primitive>	Bow_crack_MidFrontShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMAT_PBS_HullX	</identifier>
-					<mfm>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/ship/JSC008_Myoko_1945.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	Bow_crack_MidFront_in	</node>
-		<geometry>
-			<vertices>	Bow_crack_MidFront_inShape.vertices	</vertices>
-			<primitive>	Bow_crack_MidFront_inShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMAT_PBS_Crack	</identifier>
-					<mfm>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/ship/C002_Razlom.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	Bow_crack_MidFront_Bugles	</node>
-		<geometry>
-			<vertices>	Bow_crack_MidFront_BuglesShape.vertices	</vertices>
-			<primitive>	Bow_crack_MidFront_BuglesShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMAT_PBS_BulgeX	</identifier>
-					<mfm>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/ship/JSC032_Myoko_1941_bools.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	Bow_crack_MidFront_in_Bugles	</node>
-		<geometry>
-			<vertices>	Bow_crack_MidFront_in_BuglesShape.vertices	</vertices>
-			<primitive>	Bow_crack_MidFront_in_BuglesShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMAT_PBS_Crack	</identifier>
-					<mfm>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/ship/C002_Razlom.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	Bow_patch_MidFront	</node>
-		<geometry>
-			<vertices>	Bow_patch_MidFrontShape.vertices	</vertices>
-			<primitive>	Bow_patch_MidFrontShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMAT_PBS_HullX	</identifier>
-					<mfm>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/ship/JSC008_Myoko_1945.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	Bow_patch_MidFront_Bugles	</node>
-		<geometry>
-			<vertices>	Bow_patch_MidFront_BuglesShape.vertices	</vertices>
-			<primitive>	Bow_patch_MidFront_BuglesShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMAT_PBS_BulgeX	</identifier>
-					<mfm>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/ship/JSC032_Myoko_1941_bools.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	Bow_patch_MidFront_wire	</node>
-		<geometry>
-			<vertices>	Bow_patch_MidFront_wireShape.vertices	</vertices>
-			<primitive>	Bow_patch_MidFront_wireShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPWIRE_PBS_Hull	</identifier>
-					<mfm>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/ship/JSC008_Myoko_1945_wire.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
+	</skeleton>
+	<properties>
+		<underwaterModel>	false	</underwaterModel>
+		<abovewaterModel>	true	</abovewaterModel>
+	</properties>
+	<boundingBox>
+		<min>	-0.5968 -0.4613 1.6573	</min>
+		<max>	0.5826 1.7921 6.8149	</max>
+	</boundingBox>
+	<renderSets>
+		<renderSet>
+			<name>	BowShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMAT_PBS_HullX	</identifier>
+				<mfm>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/ship/JSC008_Myoko_1945.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_BuglesShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_Bugles	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMAT_PBS_Bulge	</identifier>
+				<mfm>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/ship/JSC032_Myoko_1941_bools.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_Bugles_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_Bugles	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMAT_PBS_Bulge	</identifier>
+				<mfm>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/ship/JSC032_Myoko_1941_bools.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_Bugles_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_Bugles	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMAT_PBS_Bulge	</identifier>
+				<mfm>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/ship/JSC032_Myoko_1941_bools.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_Bugles_lod3Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_Bugles	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMAT_PBS_Bulge	</identifier>
+				<mfm>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/ship/JSC032_Myoko_1941_bools.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_crack_MidFrontShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_crack_MidFront	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMAT_PBS_HullX	</identifier>
+				<mfm>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/ship/JSC008_Myoko_1945.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_crack_MidFront_BuglesShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_crack_MidFront_Bugles	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMAT_PBS_Bulge	</identifier>
+				<mfm>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/ship/JSC032_Myoko_1941_bools.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_crack_MidFront_Bugles_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_crack_MidFront_Bugles	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMAT_PBS_Bulge	</identifier>
+				<mfm>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/ship/JSC032_Myoko_1941_bools.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_crack_MidFront_Bugles_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_crack_MidFront_Bugles	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMAT_PBS_Bulge	</identifier>
+				<mfm>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/ship/JSC032_Myoko_1941_bools.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_crack_MidFront_Bugles_lod3Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_crack_MidFront_Bugles	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMAT_PBS_Bulge	</identifier>
+				<mfm>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/ship/JSC032_Myoko_1941_bools.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_crack_MidFront_inShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_crack_MidFront_in	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMAT_PBS_Crack	</identifier>
+				<mfm>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/ship/C002_Razlom.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_crack_MidFront_in_BuglesShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_crack_MidFront_in_Bugles	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMAT_PBS_Crack	</identifier>
+				<mfm>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/ship/C002_Razlom.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_crack_MidFront_in_Bugles_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_crack_MidFront_in_Bugles	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMAT_PBS_Crack	</identifier>
+				<mfm>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/ship/C002_Razlom.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_crack_MidFront_in_Bugles_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_crack_MidFront_in_Bugles	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMAT_PBS_Crack	</identifier>
+				<mfm>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/ship/C002_Razlom.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_crack_MidFront_in_Bugles_lod3Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_crack_MidFront_in_Bugles	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMAT_PBS_Crack	</identifier>
+				<mfm>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/ship/C002_Razlom.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_crack_MidFront_in_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_crack_MidFront_in	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMAT_PBS_Crack	</identifier>
+				<mfm>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/ship/C002_Razlom.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_crack_MidFront_in_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_crack_MidFront_in	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMAT_PBS_Crack	</identifier>
+				<mfm>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/ship/C002_Razlom.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_crack_MidFront_in_lod3Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_crack_MidFront_in	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMAT_PBS_Crack	</identifier>
+				<mfm>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/ship/C002_Razlom.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_crack_MidFront_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_crack_MidFront	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMAT_PBS_HullX	</identifier>
+				<mfm>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/ship/JSC008_Myoko_1945.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_crack_MidFront_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_crack_MidFront	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMAT_PBS_HullX	</identifier>
+				<mfm>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/ship/JSC008_Myoko_1945.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_crack_MidFront_lod3Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_crack_MidFront	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMAT_PBS_HullX	</identifier>
+				<mfm>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/ship/JSC008_Myoko_1945.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMAT_PBS_HullX	</identifier>
+				<mfm>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/ship/JSC008_Myoko_1945.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMAT_PBS_HullX	</identifier>
+				<mfm>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/ship/JSC008_Myoko_1945.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_lod3Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMAT_PBS_HullX	</identifier>
+				<mfm>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/ship/JSC008_Myoko_1945.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_patch_MidFrontShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_patch_MidFront	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMAT_PBS_HullX	</identifier>
+				<mfm>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/ship/JSC008_Myoko_1945.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_patch_MidFront_BuglesShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_patch_MidFront_Bugles	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMAT_PBS_Bulge	</identifier>
+				<mfm>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/ship/JSC032_Myoko_1941_bools.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_patch_MidFront_Bugles_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_patch_MidFront_Bugles	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMAT_PBS_Bulge	</identifier>
+				<mfm>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/ship/JSC032_Myoko_1941_bools.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_patch_MidFront_Bugles_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_patch_MidFront_Bugles	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMAT_PBS_Bulge	</identifier>
+				<mfm>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/ship/JSC032_Myoko_1941_bools.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_patch_MidFront_Bugles_lod3Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_patch_MidFront_Bugles	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMAT_PBS_Bulge	</identifier>
+				<mfm>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/ship/JSC032_Myoko_1941_bools.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_patch_MidFront_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_patch_MidFront	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMAT_PBS_HullX	</identifier>
+				<mfm>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/ship/JSC008_Myoko_1945.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_patch_MidFront_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_patch_MidFront	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMAT_PBS_HullX	</identifier>
+				<mfm>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/ship/JSC008_Myoko_1945.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_patch_MidFront_lod3Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_patch_MidFront	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMAT_PBS_HullX	</identifier>
+				<mfm>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/ship/JSC008_Myoko_1945.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_patch_MidFront_wireShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_patch_MidFront_wire	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPWIRE_PBS_Hull	</identifier>
+				<mfm>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/ship/JSC008_Myoko_1945_wire.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_patch_MidFront_wire_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_patch_MidFront_wire	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPWIRE_PBS_Hull	</identifier>
+				<mfm>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/ship/JSC008_Myoko_1945_wire.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_patch_MidFront_wire_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_patch_MidFront_wire	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPWIRE_PBS_Hull	</identifier>
+				<mfm>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/ship/JSC008_Myoko_1945_wire.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_wireShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_wire	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPWIRE_PBS_Hull	</identifier>
+				<mfm>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/ship/JSC008_Myoko_1945_wire.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_wire_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_wire	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPWIRE_PBS_Hull	</identifier>
+				<mfm>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/ship/JSC008_Myoko_1945_wire.mfm	</mfm>
+			</material>
+		</renderSet>
+	</renderSets>
+	<lods>
+		<lod>
+			<extent>	7.0000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	BowShape	</renderSet>
+				<renderSet>	Bow_BuglesShape	</renderSet>
+				<renderSet>	Bow_crack_MidFrontShape	</renderSet>
+				<renderSet>	Bow_crack_MidFront_BuglesShape	</renderSet>
+				<renderSet>	Bow_crack_MidFront_inShape	</renderSet>
+				<renderSet>	Bow_crack_MidFront_in_BuglesShape	</renderSet>
+				<renderSet>	Bow_patch_MidFrontShape	</renderSet>
+				<renderSet>	Bow_patch_MidFront_BuglesShape	</renderSet>
+				<renderSet>	Bow_patch_MidFront_wireShape	</renderSet>
+				<renderSet>	Bow_wireShape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	18.0000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	Bow_Bugles_lod1Shape	</renderSet>
+				<renderSet>	Bow_crack_MidFront_Bugles_lod1Shape	</renderSet>
+				<renderSet>	Bow_crack_MidFront_in_Bugles_lod1Shape	</renderSet>
+				<renderSet>	Bow_crack_MidFront_in_lod1Shape	</renderSet>
+				<renderSet>	Bow_crack_MidFront_lod1Shape	</renderSet>
+				<renderSet>	Bow_lod1Shape	</renderSet>
+				<renderSet>	Bow_patch_MidFront_Bugles_lod1Shape	</renderSet>
+				<renderSet>	Bow_patch_MidFront_lod1Shape	</renderSet>
+				<renderSet>	Bow_patch_MidFront_wire_lod1Shape	</renderSet>
+				<renderSet>	Bow_wire_lod1Shape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	48.0000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	Bow_Bugles_lod2Shape	</renderSet>
+				<renderSet>	Bow_crack_MidFront_Bugles_lod2Shape	</renderSet>
+				<renderSet>	Bow_crack_MidFront_in_Bugles_lod2Shape	</renderSet>
+				<renderSet>	Bow_crack_MidFront_in_lod2Shape	</renderSet>
+				<renderSet>	Bow_crack_MidFront_lod2Shape	</renderSet>
+				<renderSet>	Bow_lod2Shape	</renderSet>
+				<renderSet>	Bow_patch_MidFront_Bugles_lod2Shape	</renderSet>
+				<renderSet>	Bow_patch_MidFront_lod2Shape	</renderSet>
+				<renderSet>	Bow_patch_MidFront_wire_lod2Shape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	400.0000	</extent>
+			<castsShadow>	false	</castsShadow>
+			<renderSets>
+				<renderSet>	Bow_Bugles_lod3Shape	</renderSet>
+				<renderSet>	Bow_crack_MidFront_Bugles_lod3Shape	</renderSet>
+				<renderSet>	Bow_crack_MidFront_in_Bugles_lod3Shape	</renderSet>
+				<renderSet>	Bow_crack_MidFront_in_lod3Shape	</renderSet>
+				<renderSet>	Bow_crack_MidFront_lod3Shape	</renderSet>
+				<renderSet>	Bow_lod3Shape	</renderSet>
+				<renderSet>	Bow_patch_MidFront_Bugles_lod3Shape	</renderSet>
+				<renderSet>	Bow_patch_MidFront_lod3Shape	</renderSet>
+			</renderSets>
+		</lod>
+	</lods>
 </JSC008_Myoko_1945_Bow.visual>

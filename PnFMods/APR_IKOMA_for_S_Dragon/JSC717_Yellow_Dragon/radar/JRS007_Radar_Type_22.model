@@ -1,17 +1,8 @@
 <JRS007_Radar_Type_22.model>
-	<castsShadow>	false	</castsShadow>
-	<parent>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/radar/lods/JRS007_Radar_Type_22_lod1	</parent>
-	<extent>	3.0000	</extent>
-	<nodefullVisual>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/radar/JRS007_Radar_Type_22	</nodefullVisual>
-	<animation>
-		<name>	JRS007_Radar_Type_22	</name>
-		<frameRate>	10.0000	</frameRate>
-		<nodes>	content/animation/common/JRS007_Radar_Type_22	</nodes>
-	</animation>
-	<action>
-		<name>	idle	</name>
-		<animation>	JRS007_Radar_Type_22	</animation>
-		<filler>	true	</filler>
-	</action>
-	<metaData>	Wargaming | Lesta Studio	</metaData>
+	<visual>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/radar/JRS007_Radar_Type_22.visual	</visual>
+	<animations>
+		<animation>	content/animation_state_machines/legacy/gameplay/JRS007_Radar_Type_22/JRS007_Radar_Type_22.ssm	</animation>
+	</animations>
+	<dyes />
+	<metaData>	Wargaming.net	</metaData>
 </JRS007_Radar_Type_22.model>

@@ -1,8 +1,6 @@
 <JF063_RF_1_5m_Nav.model>
-	<castsShadow>	false	</castsShadow>
-	<exporter>	1.5	</exporter>
-	<parent>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/finder/lods/JF063_RF_1_5m_Nav_lod1	</parent>
-	<extent>	2.000000	</extent>
-	<nodefullVisual>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/finder/JF063_RF_1_5m_Nav	</nodefullVisual>
-	<metaData>	Wargaming | Lesta Studio	</metaData>
+	<visual>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/finder/JF063_RF_1_5m_Nav.visual	</visual>
+	<animations />
+	<dyes />
+	<metaData>	Wargaming.net	</metaData>
 </JF063_RF_1_5m_Nav.model>

@@ -1,38 +1,106 @@
 <JF060_RF4_5Type89.visual>
-	<boundingBox>
-		<min>	-0.148985 0.000104 -0.068641	</min>
-		<max>	0.150234 0.083157 0.069604	</max>
-	</boundingBox>
-	<node>
-		<identifier>	Scene Root	</identifier>
-		<transform>
-			<row0>	1.000000 0.000000 0.000000	</row0>
-			<row1>	0.000000 1.000000 0.000000	</row1>
-			<row2>	0.000000 0.000000 1.000000	</row2>
-			<row3>	0.000000 0.000000 0.000000	</row3>
-		</transform>
+	<skeleton>
 		<node>
-			<identifier>	RF4_5Type89	</identifier>
+			<identifier>	Scene Root	</identifier>
 			<transform>
-				<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
-				<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
-				<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
-				<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
+				<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+				<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+				<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+				<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 			</transform>
+			<node>
+				<identifier>	RF4_5Type89	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+				</transform>
+			</node>
 		</node>
-	</node>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	RF4_5Type89	</node>
-		<geometry>
-			<vertices>	RF4_5Type89Shape.vertices	</vertices>
-			<primitive>	RF4_5Type89Shape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMAT_PBS_radar	</identifier>
-					<mfm>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/finder/JF060_RF4_5Type89.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
+	</skeleton>
+	<properties>
+		<underwaterModel>	false	</underwaterModel>
+		<abovewaterModel>	true	</abovewaterModel>
+	</properties>
+	<boundingBox>
+		<min>	-0.1489 0.0001 -0.0686	</min>
+		<max>	0.1502 0.0831 0.0696	</max>
+	</boundingBox>
+	<renderSets>
+		<renderSet>
+			<name>	RF4_5Type89Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	RF4_5Type89	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMAT_PBS_radar	</identifier>
+				<mfm>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/finder/JF060_RF4_5Type89.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	RF4_5Type89_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	RF4_5Type89	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMAT_PBS_radar	</identifier>
+				<mfm>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/finder/JF060_RF4_5Type89.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	RF4_5Type89_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	RF4_5Type89	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMAT_PBS_radar	</identifier>
+				<mfm>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/finder/JF060_RF4_5Type89.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	RF4_5Type89_lod3Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	RF4_5Type89	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMAT_PBS_radar	</identifier>
+				<mfm>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/finder/JF060_RF4_5Type89.mfm	</mfm>
+			</material>
+		</renderSet>
+	</renderSets>
+	<lods>
+		<lod>
+			<extent>	2.000000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	RF4_5Type89Shape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	4.000000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	RF4_5Type89_lod1Shape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	10.000000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	RF4_5Type89_lod2Shape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	50.000000	</extent>
+			<castsShadow>	false	</castsShadow>
+			<renderSets>
+				<renderSet>	RF4_5Type89_lod3Shape	</renderSet>
+			</renderSets>
+		</lod>
+	</lods>
 </JF060_RF4_5Type89.visual>

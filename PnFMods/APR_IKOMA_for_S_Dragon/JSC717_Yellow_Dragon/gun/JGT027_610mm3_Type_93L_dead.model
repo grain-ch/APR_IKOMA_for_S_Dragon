@@ -1,13 +1,6 @@
 <JGT027_610mm3_Type_93L_dead.model>
-	<extent>	3.000000	</extent>
-	<parent>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/gun/lods/JGT027_610mm3_Type_93L_dead_lod1	</parent>
-	<materialNames />
-	<castsShadow>	true	</castsShadow>
-	<visibilityBox>
-		<min>	-0.173443 0.000000 -0.242751	</min>
-		<max>	0.156333 0.127075 0.369619	</max>
-	</visibilityBox>
-	<exporter>	1.6	</exporter>
-	<nodefullVisual>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/gun/JGT027_610mm3_Type_93L_dead	</nodefullVisual>
-	<metaData>	Wargaming | Lesta Studio	</metaData>
+	<visual>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/gun/JGT027_610mm3_Type_93L_dead.visual	</visual>
+	<animations />
+	<dyes />
+	<metaData>	Wargaming.net	</metaData>
 </JGT027_610mm3_Type_93L_dead.model>

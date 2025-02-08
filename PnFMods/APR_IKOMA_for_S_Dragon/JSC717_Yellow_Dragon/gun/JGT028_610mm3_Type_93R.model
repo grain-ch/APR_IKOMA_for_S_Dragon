@@ -1,13 +1,6 @@
 <JGT028_610mm3_Type_93R.model>
-	<castsShadow>	true	</castsShadow>
-	<materialNames />
-	<extent>	4.000000	</extent>
-	<visibilityBox>
-		<min>	-0.130480 0.000000 -0.240008	</min>
-		<max>	0.127862 0.078834 0.366109	</max>
-	</visibilityBox>
-	<parent>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/gun/lods/JGT028_610mm3_Type_93R_lod1	</parent>
-	<exporter>	1.6	</exporter>
-	<nodefullVisual>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/gun/JGT028_610mm3_Type_93R	</nodefullVisual>
-	<metaData>	Wargaming | Lesta Studio	</metaData>
+	<visual>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/gun/JGT028_610mm3_Type_93R.visual	</visual>
+	<animations />
+	<dyes />
+	<metaData>	Wargaming.net	</metaData>
 </JGT028_610mm3_Type_93R.model>

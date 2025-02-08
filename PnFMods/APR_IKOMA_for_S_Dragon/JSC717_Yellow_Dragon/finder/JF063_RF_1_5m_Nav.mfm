@@ -14,7 +14,7 @@
 		<Texture>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/finder/JF063_RF_1_5m_Nav_a.dds	</Texture>
 	</property>
 	<property>	detailMap
-<Texture>	content/gameplay/common/textures/ship_atlas_detail.dds	</Texture>
+		<Texture>	content/gameplay/common/textures/ship_atlas_detail.dds	</Texture>
 	</property>
 	<property>	g_detailAlbedoInfluence
 		<Float>	0.000000	</Float>

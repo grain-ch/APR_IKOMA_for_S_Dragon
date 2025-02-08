@@ -1,8 +1,6 @@
 <JSC008_Myoko_1945_Bow.model>
-	<parent>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/ship/lods/JSC008_Myoko_1945_Bow_lod1	</parent>
-	<extent>	7.0000	</extent>
-	<castsShadow>	true	</castsShadow>
-	<exporter>	1.6	</exporter>
-	<nodefullVisual>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/ship/JSC008_Myoko_1945_Bow	</nodefullVisual>
-	<metaData>	Wargaming | Lesta Studio	</metaData>
+	<visual>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/ship/JSC008_Myoko_1945_Bow.visual	</visual>
+	<animations />
+	<dyes />
+	<metaData>	Wargaming.net	</metaData>
 </JSC008_Myoko_1945_Bow.model>

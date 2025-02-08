@@ -1,14 +1,7 @@
 <JGS042_127mm40_Type89_3_dead.visual>
-	<node>
-		<identifier>	Scene Root	</identifier>
-		<transform>
-			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-			<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
-		</transform>
+	<skeleton>
 		<node>
-			<identifier>	turret_dead	</identifier>
+			<identifier>	Scene Root	</identifier>
 			<transform>
 				<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
 				<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
@@ -16,7 +9,7 @@
 				<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 			</transform>
 			<node>
-				<identifier>	shield_dead	</identifier>
+				<identifier>	turret_dead	</identifier>
 				<transform>
 					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
 					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
@@ -24,74 +17,183 @@
 					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 				</transform>
 				<node>
-					<identifier>	SP_YMS100_YGBS_M_1_INDEX_2	</identifier>
+					<identifier>	shield_dead	</identifier>
 					<transform>
-						<row0>	0.4913 -0.0004 -0.0075 0.0000	</row0>
-						<row1>	0.0000 0.4907 -0.0250 0.0000	</row1>
-						<row2>	0.0075 0.0250 0.4906 0.0000	</row2>
-						<row3>	-0.0221 0.1425 -0.0377 1.0000	</row3>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 					</transform>
-				</node>
-				<node>
-					<identifier>	SP_YMS100_YGBS_M_1_INDEX_3	</identifier>
-					<transform>
-						<row0>	0.4911 0.0007 -0.0157 0.0000	</row0>
-						<row1>	-0.0015 0.4907 -0.0246 0.0000	</row1>
-						<row2>	0.0157 0.0247 0.4905 0.0000	</row2>
-						<row3>	0.0226 0.1405 -0.0563 1.0000	</row3>
-					</transform>
-				</node>
-				<node>
-					<identifier>	SP_YMS104_YGRS_M_1_INDEX_2	</identifier>
-					<transform>
-						<row0>	0.4085 0.0006 -0.0131 0.0000	</row0>
-						<row1>	-0.0012 0.4082 -0.0205 0.0000	</row1>
-						<row2>	0.0130 0.0205 0.4080 0.0000	</row2>
-						<row3>	0.0329 0.1568 0.2681 1.0000	</row3>
-					</transform>
-				</node>
-				<node>
-					<identifier>	SP_YMS104_YGRS_M_1_INDEX_3	</identifier>
-					<transform>
-						<row0>	0.4087 -0.0004 -0.0063 0.0000	</row0>
-						<row1>	0.0000 0.4082 -0.0208 0.0000	</row1>
-						<row2>	0.0063 0.0208 0.4081 0.0000	</row2>
-						<row3>	-0.0177 0.1571 0.2488 1.0000	</row3>
-					</transform>
+					<node>
+						<identifier>	SP_YMS100_YGBS_M_1_INDEX_2	</identifier>
+						<transform>
+							<row0>	0.4913 -0.0004 -0.0075 0.0000	</row0>
+							<row1>	0.0000 0.4907 -0.0250 0.0000	</row1>
+							<row2>	0.0075 0.0250 0.4906 0.0000	</row2>
+							<row3>	-0.0221 0.1424 -0.0377 1.0000	</row3>
+						</transform>
+					</node>
+					<node>
+						<identifier>	SP_YMS100_YGBS_M_1_INDEX_3	</identifier>
+						<transform>
+							<row0>	0.4911 0.0007 -0.0157 0.0000	</row0>
+							<row1>	-0.0015 0.4907 -0.0246 0.0000	</row1>
+							<row2>	0.0157 0.0247 0.4905 0.0000	</row2>
+							<row3>	0.0226 0.1404 -0.0563 1.0000	</row3>
+						</transform>
+					</node>
+					<node>
+						<identifier>	SP_YMS104_YGRS_M_1_INDEX_2	</identifier>
+						<transform>
+							<row0>	0.4085 0.0006 -0.0131 0.0000	</row0>
+							<row1>	-0.0012 0.4082 -0.0205 0.0000	</row1>
+							<row2>	0.0130 0.0205 0.4080 0.0000	</row2>
+							<row3>	0.0329 0.1567 0.2680 1.0000	</row3>
+						</transform>
+					</node>
+					<node>
+						<identifier>	SP_YMS104_YGRS_M_1_INDEX_3	</identifier>
+						<transform>
+							<row0>	0.4087 -0.0004 -0.0063 0.0000	</row0>
+							<row1>	0.0000 0.4082 -0.0208 0.0000	</row1>
+							<row2>	0.0063 0.0208 0.4081 0.0000	</row2>
+							<row3>	-0.0177 0.1570 0.2487 1.0000	</row3>
+						</transform>
+					</node>
 				</node>
 			</node>
 		</node>
-	</node>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	shield_dead	</node>
-		<geometry>
-			<vertices>	shield_deadShape.vertices	</vertices>
-			<primitive>	shield_deadShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMAT_PBS_GunDead	</identifier>
-					<mfm>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/gun/JGS042_127mm40_Type89_3_dead.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	turret_dead	</node>
-		<geometry>
-			<vertices>	turret_deadShape.vertices	</vertices>
-			<primitive>	turret_deadShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMAT_PBS_Gun1Dead	</identifier>
-					<mfm>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/gun/JGS009_127mm40_Type_89_dead.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
+	</skeleton>
+	<properties>
+		<underwaterModel>	false	</underwaterModel>
+		<abovewaterModel>	true	</abovewaterModel>
+	</properties>
 	<boundingBox>
-		<min>	-0.1751 -0.0076 -0.1728	</min>
-		<max>	0.1912 0.2596 0.2975	</max>
+		<min>	-0.1750 -0.0076 -0.1727	</min>
+		<max>	0.1911 0.2595 0.2974	</max>
 	</boundingBox>
+	<renderSets>
+		<renderSet>
+			<name>	shield_deadShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	shield_dead	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMAT_PBS_GunDead	</identifier>
+				<mfm>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/gun/JGS042_127mm40_Type89_3_dead.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	shield_dead_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	shield_dead	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMAT_PBS_GunDead	</identifier>
+				<mfm>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/gun/JGS042_127mm40_Type89_3_dead.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	shield_dead_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	shield_dead	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMAT_PBS_GunDead	</identifier>
+				<mfm>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/gun/JGS042_127mm40_Type89_3_dead.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	shield_dead_lod3Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	shield_dead	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMAT_PBS_GunDead	</identifier>
+				<mfm>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/gun/JGS042_127mm40_Type89_3_dead.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	turret_deadShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	turret_dead	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMAT_PBS_Gun1Dead	</identifier>
+				<mfm>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/gun/JGS009_127mm40_Type_89_dead.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	turret_dead_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	turret_dead	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMAT_PBS_Gun1Dead	</identifier>
+				<mfm>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/gun/JGS009_127mm40_Type_89_dead.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	turret_dead_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	turret_dead	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMAT_PBS_Gun1Dead	</identifier>
+				<mfm>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/gun/JGS009_127mm40_Type_89_dead.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	turret_dead_lod3Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	turret_dead	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMAT_PBS_Gun1Dead	</identifier>
+				<mfm>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/gun/JGS009_127mm40_Type_89_dead.mfm	</mfm>
+			</material>
+		</renderSet>
+	</renderSets>
+	<lods>
+		<lod>
+			<extent>	4.0000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	shield_deadShape	</renderSet>
+				<renderSet>	turret_deadShape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	12.0000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	shield_dead_lod1Shape	</renderSet>
+				<renderSet>	turret_dead_lod1Shape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	45.0000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	shield_dead_lod2Shape	</renderSet>
+				<renderSet>	turret_dead_lod2Shape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	130.0000	</extent>
+			<castsShadow>	false	</castsShadow>
+			<renderSets>
+				<renderSet>	shield_dead_lod3Shape	</renderSet>
+				<renderSet>	turret_dead_lod3Shape	</renderSet>
+			</renderSets>
+		</lod>
+	</lods>
 </JGS042_127mm40_Type89_3_dead.visual>

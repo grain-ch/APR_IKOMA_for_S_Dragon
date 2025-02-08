@@ -1,8 +1,6 @@
 <JD059_Torpedo_Director.model>
-	<castsShadow>	false	</castsShadow>
-	<exporter>	1.5	</exporter>
-	<parent>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/director/lods/JD059_Torpedo_Director_lod1	</parent>
-	<extent>	2.000000	</extent>
-	<nodefullVisual>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/director/JD059_Torpedo_Director	</nodefullVisual>
-	<metaData>	Wargaming | Lesta Studio	</metaData>
+	<visual>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/director/JD059_Torpedo_Director.visual	</visual>
+	<animations />
+	<dyes />
+	<metaData>	Wargaming.net	</metaData>
 </JD059_Torpedo_Director.model>

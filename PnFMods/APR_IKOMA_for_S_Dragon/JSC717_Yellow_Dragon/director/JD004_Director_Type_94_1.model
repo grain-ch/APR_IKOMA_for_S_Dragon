@@ -1,13 +1,6 @@
 <JD004_Director_Type_94_1.model>
-	<castsShadow>	false	</castsShadow>
-	<extent>	3.000000	</extent>
-	<parent>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/director/lods/JD004_Director_Type_94_1_lod1	</parent>
-	<materialNames />
-	<visibilityBox>
-		<min>	-0.106096 0.000000 -0.106855	</min>
-		<max>	0.110741 0.107878 0.104912	</max>
-	</visibilityBox>
-	<exporter>	1.6	</exporter>
-	<nodefullVisual>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/director/JD004_Director_Type_94_1	</nodefullVisual>
-	<metaData>	Wargaming | Lesta Studio	</metaData>
+	<visual>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/director/JD004_Director_Type_94_1.visual	</visual>
+	<animations />
+	<dyes />
+	<metaData>	Wargaming.net	</metaData>
 </JD004_Director_Type_94_1.model>

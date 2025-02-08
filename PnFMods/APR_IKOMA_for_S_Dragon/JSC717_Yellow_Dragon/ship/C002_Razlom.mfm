@@ -5,7 +5,7 @@
 		<Texture>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/ship/default_ao.dds	</Texture>
 	</property>
 	<property>	detailMap
-<Texture>	content/gameplay/common/textures/ship_atlas_detail.dds	</Texture>
+		<Texture>	content/gameplay/common/textures/ship_atlas_detail.dds	</Texture>
 	</property>
 	<property>	diffuseMap
 		<Texture>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/ship/C002_Razlom_a.dds	</Texture>
