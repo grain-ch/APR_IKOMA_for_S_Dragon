@@ -1,0 +1,7 @@
+<transparent_glass_alpha.mfm>
+	<fx>	shaders/materials/pbs/glass_material.fx	</fx>
+	<collisionFlags>	0	</collisionFlags>
+	<property>	diffuseMap
+		<Texture>	PnFMods/APR_IKOMA_for_S_Dragon/JSC717_Yellow_Dragon/ship/transparent_glass_alpha_a.dds	</Texture>
+	</property>
+</transparent_glass_alpha.mfm>
